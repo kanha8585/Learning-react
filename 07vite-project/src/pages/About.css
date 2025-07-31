@@ -1,0 +1,30 @@
+.about-section {
+  background: #f4f4f4;
+  padding: 40px;
+}
+
+.about-content {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.about-content img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.about-content h2 {
+  margin-top: 40px;
+  color: black;
+}
+
+.about-content p {
+  margin: 5px 0;
+  color: #444;
+} 
+
+
+

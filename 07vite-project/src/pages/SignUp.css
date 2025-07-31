@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 60px;
+     
+}
+
+.register .container { 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+.register .container .left { 
+    filter: hue-rotate(303deg) !important;
+    width: 40%;
+    height: 80%;
+}
+
+ 
+
+.register .container .right {
+      border-radius: 25px;
+    color: rgb(88, 86, 86);
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 30px;
+    background-color: #526d82;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ 
+ .right h2 {
+    margin-bottom: 10px;
+}
+
+.right form {
+      width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+ .right input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+#mobile::-webkit-outer-spin-button,
+#mobile::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+ 
+
+.right .btns {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.right button {
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    transition: all 0.5s linear;
+    color: black;
+}
+
+.right button:hover {
+    color: white;
+    background-color: black;
+}
+
+.right p {
+    padding-left: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: black;
+}
+
+.right a {
+    color: black;
+    font-weight: bold;
+}
+
+.right a:hover {
+    color: white;
+}
+
+ 
+@media only screen and (max-width: 1040px) {
+
+    .register .container {
+         
+        width: 100%;
+         
+    }
+
+    .register .container .right{
+        width:  50%;
+        margin: 0;
+    }
+
+    .register .container .left{
+        width: 50%;
+        margin: 0;
+    }  
+}
+
+@media only screen and (max-width: 760px) {
+
+    .register .container {
+        
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .register .container .right{
+        height:  50%;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .register .container .left{
+        height: 50%;
+        width: 100%;
+        padding: 15px;
+    }  
+
+     
+}
+
+
+ 
